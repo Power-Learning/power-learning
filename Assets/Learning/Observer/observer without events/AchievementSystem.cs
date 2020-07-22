@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 
-
 namespace LearningPower.Observer
 {
     public class AchievementSystem : Observer
@@ -9,7 +8,7 @@ namespace LearningPower.Observer
         {
             PlayerPrefs.DeleteAll();
            
-            // Search for all subscriber that observer is interested
+            // Search for all subscribers that observer is interested
             // This could also be a respawn point
             foreach (var poi in FindObjectsOfType<PointOfInterest>())
             {
@@ -38,7 +37,7 @@ namespace LearningPower.Observer
     }
 
     /// <summary>
-    /// This define a type of notify
+    /// This defines a type of notify
     /// </summary>
     public enum NotificationType
     {
