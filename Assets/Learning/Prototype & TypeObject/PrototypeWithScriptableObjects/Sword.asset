@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51c109733bc15f148a27ca7924a9897a, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  damage: 5
+  message: Slash
+  model: {fileID: 123080, guid: ef692f86dcc854a7aba0ac610620cb15, type: 3}
+  stunDuration: 0
+  freezeDuration: 0
