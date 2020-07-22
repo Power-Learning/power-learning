@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace LearningPower.Observer
+namespace LearningPower.LearningPatterns.Observer
 {
     /// <summary>
     /// This class instead of represents a subscriber for a observer system

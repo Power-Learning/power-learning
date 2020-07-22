@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace LearningPower.Observer
+namespace LearningPower.LearningPatterns.Observer
 {
     /// <summary>
     /// This class implements the observer notifications through events of POIs instead

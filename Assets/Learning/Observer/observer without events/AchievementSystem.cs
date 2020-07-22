@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace LearningPower.Observer
+namespace LearningPower.LearningPatterns.Observer
 {
     public class AchievementSystem : Observer
     {

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace LearningPower.Observer
+namespace LearningPower.LearningPatterns.Observer
 {
     /// <summary>
     /// This class represent the subscriber for the AchievementSystem observer

@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace LearningPower.Prototype
+namespace LearningPower.LearningPatterns.Prototype
 {
     /// <summary>
     /// This class it's for test the Prototype pattern

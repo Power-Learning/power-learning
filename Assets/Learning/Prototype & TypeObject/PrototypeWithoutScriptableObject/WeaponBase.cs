@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace LearningPower.Prototype
+namespace LearningPower.LearningPatterns.Prototype
 {
     /// <summary>
     /// This class is the base class for Prototype instead use an ScriptableObject

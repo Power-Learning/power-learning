@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LearningPower.Prototype
+namespace LearningPower.LearningPatterns.Prototype
 {
     /// <summary>
     /// This ScriptableObject contains the data to clone for the Prototype pattern

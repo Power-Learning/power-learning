@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace LearningPower.Prototype
+namespace LearningPower.LearningPatterns.Prototype
 {
     /// <summary>
     /// This example implements the Prototype clone through a normal class

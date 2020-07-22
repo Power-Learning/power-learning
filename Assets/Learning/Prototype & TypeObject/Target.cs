@@ -1,7 +1,7 @@
 ﻿using TMPro;
 using UnityEngine;
 
-namespace LearningPower.Prototype
+namespace LearningPower.LearningPatterns.Prototype
 {
     /// <summary>
     /// This class represents the target enemy that it's modified by the Prototype pattern

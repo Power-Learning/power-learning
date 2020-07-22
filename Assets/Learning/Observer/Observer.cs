@@ -1,8 +1,11 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 
-namespace LearningPower.Observer
+namespace LearningPower.LearningPatterns.Observer
 {
+    /// <summary>
+    /// This class implements the base methods to implement the observer pattern
+    /// </summary>
     public abstract class Observer : MonoBehaviour
     {
         public abstract void OnNotify(object value, NotificationType notificationType);
