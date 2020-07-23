@@ -1,5 +1,1 @@
-sceneSetups:
-- path: Assets/Learning/Prototype & TypeObject/PrototypeWithScriptableObjects/PrototypeTypeObjectScene.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
+sceneSetups: []
