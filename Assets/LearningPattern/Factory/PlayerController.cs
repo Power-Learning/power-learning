@@ -14,6 +14,7 @@ namespace LearningPattern.Factory
         public void ShowParticle(int index)
         {
             GameObject currentParticle = _particles[index];
+            
             currentParticle.SetActive(true);
             StartCoroutine(HideParticleDelayed(currentParticle));
         }
