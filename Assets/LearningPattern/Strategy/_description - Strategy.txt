@@ -1,0 +1,1 @@
+This pattern do is it encapsulates a certain behaviour into an object and it lets every client to choose which behaviour object that it want to use. 
