@@ -1,0 +1,9 @@
+{
+    "name": "PokemonTournamentTests",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}
