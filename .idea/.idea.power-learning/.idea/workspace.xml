@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="249091b9-2e75-425f-9d58-5a9b7cb577b4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/Pokemon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/RomanNumbers/Tests/RomaNumbersShould.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC1D04D8-11FC-4873-AB7D-8D9D4DADDCC9/58/9af7eb4f/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/LearningSOLID/EdiModeTests/EditModeTests.asmdef" />
+      <option value="$PROJECT_DIR$/Assets/LearningSOLID/PlayeModeTests/PlayeModeTests.asmdef" />
+      <option value="$PROJECT_DIR$/Assets/LearningSOLID/EditModeTests/NewTestScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PlayModeTests/NewTestScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/EditModeTests/Calculator.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/EditModeTests/ASD.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/Calculator/Calculator.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/LearningTDDAssembly+.asmdef" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/EditModeTests/NewTestScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/LifesBar/Editor/LifeBarShould.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/LifesBar/Editor/LifesBarShould.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/LifesBar/Tests/LifesBarShould.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/LifesBar/Tests/LifeBarShould.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/LifesBar/Tests/LifeBarView.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/LifesBar/Life.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/LifesBar/Tests/Life.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/LifesBar/LifeBarView.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/MarsRover/Tests/MarsRover.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/RomanNumbers/Tests/MarsRover.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/Heroes/EditModeTests/NewTestScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/Heroes/Calculator.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/RomanNumbers/Tests/RomaNumbersShould.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningPattern/Builder/Vehicle/Chassis.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningPattern/Builder/Vehicle/Type.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningPattern/Builder/Vehicle/Tyre.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/PokemonTournamentTests/PokemonModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/PokemonTournamentTests/Pokemon.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/PokemonModel.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/PokemonTournamentTests/Editor/ShouldPokemonTournament.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/PokemonTournamentTests/ShouldPokemonTournament.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/PokemonController.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/PokemonView.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/Pokemon.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CI_CD/CICDTests/CICD.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" />
+    </changedPaths>
+  </component>
+  <component name="ProjectId" id="24nNd2hEx5618SGHU061CYv8F32" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34993446" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="249091b9-2e75-425f-9d58-5a9b7cb577b4" name="Default Changelist" comment="" />
+      <created>1644262478494</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644262478494</updated>
+      <workItem from="1644262483003" duration="16889000" />
+      <workItem from="1644357238542" duration="1654000" />
+      <workItem from="1644959146787" duration="3102000" />
+      <workItem from="1645123667511" duration="24997000" />
+      <workItem from="1645372193653" duration="2421000" />
+      <workItem from="1645375065286" duration="2650000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
