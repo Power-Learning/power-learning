@@ -58,7 +58,11 @@ namespace LearningTDD.PokemonTournament.Core
             int amount = 0;
             foreach (var c in commands)
             {
-                if (!CanAttack()) return;
+                if (!CanAttack())
+                {
+                    isAttacking = false;
+                    return;
+                }
                 isAttacking = true;
                     
                 if (c == 'M')
