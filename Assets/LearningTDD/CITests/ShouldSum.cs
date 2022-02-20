@@ -8,7 +8,7 @@ namespace LearningTDD.CITests
         [Test]
         public void ShouldSumNumbers()
         {
-            Assert.AreEqual(3+3,8);
+            Assert.AreEqual(3+3,15);
         }
     }
 }
