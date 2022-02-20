@@ -1,4 +1,4 @@
-name: Actions 😎
+name: Check tests
 
 on: [pull_request]
 
