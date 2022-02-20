@@ -28,7 +28,7 @@ Eg: "M" = Magical or "F" = Physical
 The commands will be sent through an arrangement where they indicate all the attacks we want from our Pokemon. Ex: ['M',' M', 'F']
 
 ## Rules
-• Work the iterations sequentially, do not see or exceed without having finished the previous one.
+• Work the iterations sequentially, do not see or skip without having finished the previous one.
 
 • Don't do more than each iteration asks of you
 
