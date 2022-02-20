@@ -1,11 +1,15 @@
 name: Check tests
 
-on: [pull_request]
+on:
+  pull_request: {}
+
+env:
+  UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
 jobs:
-  buildForWindowsBasedPlatforms:
-    name: Build for ${{ matrix.targetPlatform }}
-    runs-on: windows-2019
+  buildAndTestForSomePlatforms:
+    name: Build for ${{ matrix.targetPlatform }} on version ${{ matrix.unityVersion }}
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
@@ -14,19 +18,26 @@ jobs:
         unityVersion:
           - 2021.2.12
         targetPlatform:
-          - StandaloneWindows # Build a Windows 32-bit standalone.
+          - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
           - StandaloneWindows64 # Build a Windows 64-bit standalone.
-
+          - StandaloneLinux64 # Build a Linux 64-bit standalone.
     steps:
       - uses: actions/checkout@v2
         with:
-          fetch-depth: 0
           lfs: true
-      - uses: actions/cache@v2
+      - uses: actions/cache@v1.1.0
         with:
           path: ${{ matrix.projectPath }}/Library
-          key: Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}-${{ hashFiles(matrix.projectPath) }}
+          key: Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}
           restore-keys: |
-            Library-${{ matrix.projectPath }}-${{ matrix.targetPlatform }}-
             Library-${{ matrix.projectPath }}-
             Library-
+      - uses: webbertakken/unity-test-runner@v1.3
+        id: testRunner
+        with:
+          projectPath: ${{ matrix.projectPath }}
+          unityVersion: ${{ matrix.unityVersion }}
+      - uses: actions/upload-artifact@v1
+        with:
+          name: Test results (all modes)
+          path: ${{ steps.testRunner.outputs.artifactsPath }}
