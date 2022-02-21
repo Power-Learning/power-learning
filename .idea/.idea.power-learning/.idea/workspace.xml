@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="249091b9-2e75-425f-9d58-5a9b7cb577b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.power-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.power-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LearningTDD/QuestSystem/QuestSystemTests/ShouldQuestSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LearningTDD/QuestSystem/QuestSystemTests/ShouldQuestSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +14,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC1D04D8-11FC-4873-AB7D-8D9D4DADDCC9/de/a919eb6b/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/Pokemon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/RomanNumbers/Tests/RomaNumbersShould.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC1D04D8-11FC-4873-AB7D-8D9D4DADDCC9/58/9af7eb4f/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -56,6 +57,8 @@
       <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/Pokemon.cs" />
       <option value="$PROJECT_DIR$/Assets/LearningTDD/CI_CD/CICDTests/CICD.cs" />
       <option value="$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/QuestSystem/QuestSystemTests/Shop.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/QuestSystem/QuestSystemTests/ShouldQuestSystem.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="24nNd2hEx5618SGHU061CYv8F32" />
@@ -71,6 +74,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
