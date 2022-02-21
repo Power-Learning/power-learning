@@ -1,7 +1,7 @@
 name: Build
 
 on:
-  push: { branches: [main] }
+  push: { branches: [master] }
 
 env:
   UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
@@ -16,7 +16,7 @@ jobs:
         projectPath:
           - ./
         unityVersion:
-          - 2021.2.12
+          - 2019.4.11f1
         targetPlatform:
           - StandaloneOSX # Build a macOS standalone (Intel 64-bit).
           - StandaloneWindows64 # Build a Windows 64-bit standalone.
