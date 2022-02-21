@@ -1,9 +1,0 @@
-{
-    "name": "CITests",
-    "optionalUnityReferences": [
-        "TestAssemblies"
-    ],
-    "includePlatforms": [
-        "Editor"
-    ]
-}
