@@ -20,13 +20,13 @@ namespace Assets.LearningTDD.QuestSystem.QuestSystemTests
          */
 
         private Quest _quest;
-        private PlayerQuest _playerQuest;
+        private Player _player;
 
         [SetUp]
         public void SetUp()
         {
             _quest = new Quest();
-            _playerQuest = new PlayerQuest();
+            _player = new Player();
 
             _quest.questName = "Kill all zombies!";
             _quest.questLevel = 20;
@@ -40,29 +40,35 @@ namespace Assets.LearningTDD.QuestSystem.QuestSystemTests
             Should_Player_Request_Quest_To_Npc_And_Should_Check_IfP_layer_Have_The_Requeriments_And_Once_Requested_Should_Not_Be_Able_To_Request_Again()
         {
             // When
-            _quest.GetQuest(_playerQuest);
+            _quest.GetQuest(_player);
 
             // Assert
-            Assert.AreEqual(_quest.questLevel, _playerQuest.playerLevel);
+            Assert.AreEqual(_quest.questLevel, _player.playerLevel);
             Assert.AreNotEqual(_quest.questName, "K");
         }
     }
 
-    public class PlayerQuest
+    public class Player : IQuest
     {
         private List<Quest> _quests = new List<Quest>();
         public int playerLevel = 20;
-
+        
         public void AddQuest(Quest quest)
         {
             _quests.Add(quest);
             Debug.Log($"New quest added to player {quest.questName}");
         }
 
-        public List<Quest> GetQuestList()
+        public IEnumerable<Quest> GetQuestList()
         {
             return _quests;
         }
+    }
+
+    public interface IQuest
+    {
+        void AddQuest(Quest quest);
+        IEnumerable<Quest> GetQuestList();
     }
 
     public class Quest
@@ -72,7 +78,7 @@ namespace Assets.LearningTDD.QuestSystem.QuestSystemTests
         public string questReward;
         public bool isActive;
 
-        public void GetQuest(PlayerQuest playerQuest)
+        public void GetQuest(IQuest playerQuest)
         {
             if (!CanTakeQuest(playerQuest)) return;
 
@@ -80,9 +86,9 @@ namespace Assets.LearningTDD.QuestSystem.QuestSystemTests
             playerQuest.AddQuest(this);
         }
 
-        private bool CanTakeQuest(PlayerQuest playerQuest)
+        private bool CanTakeQuest(IQuest iQuest)
         {
-            foreach (Quest quest in playerQuest.GetQuestList())
+            foreach (var quest in iQuest.GetQuestList())
             {
                 if (quest.questName == questName)
                 {
