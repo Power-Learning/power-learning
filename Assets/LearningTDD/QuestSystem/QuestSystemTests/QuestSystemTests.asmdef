@@ -1,0 +1,9 @@
+{
+    "name": "QuestSystemTests",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}
