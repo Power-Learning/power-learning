@@ -2,7 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="249091b9-2e75-425f-9d58-5a9b7cb577b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/Crafter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/Crafter.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/CrafterView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/CrafterView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/IInventory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/IInventory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/Item.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/Item.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/ItemContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/ItemContainer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/PlayerInventory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/PlayerInventory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/RecipeData.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/RecipeData.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/SwordOfMiraclesRecipe.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/SwordOfMiraclesRecipe.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.power-learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.power-learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,10 +30,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/Pokemon.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/05/9de8e052/List`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC1D04D8-11FC-4873-AB7D-8D9D4DADDCC9/de/a919eb6b/IEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/695D1CC9-3CCA-4506-9C52-8C15C9FDD749/9c/d01781cd/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/RomanNumbers/Tests/RomaNumbersShould.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/Pokemon.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/CraftingSystemTests/ShouldCraft.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/0EE48075-9F3D-481D-82AD-A245DC74F9FD/c0/abe5dbee/Material.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC1D04D8-11FC-4873-AB7D-8D9D4DADDCC9/58/9af7eb4f/Dictionary`2.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -53,9 +83,23 @@
       <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/PokemonController.cs" />
       <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/PokemonView.cs" />
-      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/Pokemon.cs" />
       <option value="$PROJECT_DIR$/Assets/LearningTDD/CI_CD/CICDTests/CICD.cs" />
       <option value="$PROJECT_DIR$/Assets/LearningTDD/CITests/ShouldSum.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/PokemonTournament/Core/Pokemon.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningPattern/Prototype &amp; TypeObject/WeaponTester.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/DraconicBowRecipe.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/SwordOfMiraclesRecipe.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/CraftingSystemTests/ShouldCraft.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/Material.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/ItemContainer.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/Weapon.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/RecipeData.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/Item.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/IInventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/Crafter.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/Recipe.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/PlayerInventory.cs" />
+      <option value="$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/CrafterView.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="24nNd2hEx5618SGHU061CYv8F32" />
@@ -71,6 +115,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -110,6 +155,9 @@
       <workItem from="1645123667511" duration="24997000" />
       <workItem from="1645372193653" duration="2421000" />
       <workItem from="1645375065286" duration="2650000" />
+      <workItem from="1645994903246" duration="5113000" />
+      <workItem from="1646180602563" duration="14882000" />
+      <workItem from="1646234713602" duration="7809000" />
     </task>
     <servers />
   </component>
@@ -132,5 +180,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/LearningTDD/CraftingSystem/Core/PlayerInventory.cs</url>
+          <line>33</line>
+          <properties documentPath="D:\Proyectos\Personales\power-learning\Assets\LearningTDD\CraftingSystem\Core\PlayerInventory.cs" initialLine="39" containingFunctionPresentation="method 'RemoveItem'">
+            <startOffsets>
+              <option value="882" />
+            </startOffsets>
+            <endOffsets>
+              <option value="961" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

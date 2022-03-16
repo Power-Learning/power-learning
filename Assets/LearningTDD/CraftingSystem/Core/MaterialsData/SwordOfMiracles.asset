@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1178cf63f15f4fa59c8c39d096295fd4, type: 3}
+  m_Name: SwordOfMiracles
+  m_EditorClassIdentifier: 
+  itemId: 555
+  itemName: Sword of Miracles
+  itemIcon: {fileID: 0}
+  itemPrefab: {fileID: 5936104502971837424, guid: 88fb0627d72facf4da6112992629a9b7, type: 3}
+  itemType: 3
